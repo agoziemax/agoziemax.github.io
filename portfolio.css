@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 80%;
+    height: 90vh;
+    padding-left: 10%;
+    margin-top: 1%;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ago{
+    position: relative;
+    margin-top: 1.5%;
+    font-weight: 1000px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+li{
+    display: flex;
+    position: relative;
+    right: 25%;
+}
+
+span{
+    color: blue;
+}
+
+button{
+    background-color: rgb(49, 49, 218);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    
+}
+
+button:hover{
+    background-color: rgb(23, 7, 92);
+}
+
+.pic{
+    position: relative;
+    right: 250px;
+    top:70px;
+    height: 250px;
+    border-radius: 40px;  
+    border:1px solid blue;
+}
+.img2{
+    position: relative;
+    height: 25px;
+    bottom: 50px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2{
+     position:relative;
+     top: 50px;
+
+}
+
+footer{
+    position: absolute;
+    top: 550px;
+    left: 180px;    
+}
+
+a:any-link{
+    color:black;
+    text-decoration: none;
+}
